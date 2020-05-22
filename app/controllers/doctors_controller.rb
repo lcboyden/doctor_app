@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 5fb607fa250bf92b73a6b630caffe20261cadb5f
 class DoctorsController < ApplicationController 
   before_action :set_doctor, only: [:show, :destroy]
 
@@ -39,8 +42,13 @@ class DoctorsController < ApplicationController
     def doctor_params
       params.require(:doctor).permit(:name)
     end
+<<<<<<< HEAD
 
 end
 
 
 
+=======
+
+end
+>>>>>>> 5fb607fa250bf92b73a6b630caffe20261cadb5f
